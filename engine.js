@@ -22,9 +22,9 @@ exports.init = function(ss, config) {
     // Opening code to use when a Hogan template is called for the first time
     prefix: function(isExternalJs) {
       if (isExternalJs === true) {
-        return '(function(){var ht=Hogan.Template,t=require(\'socketstream\').tmpl;'
+        return '(function(){var ht=Hogan.Template,t=require(\'socketstreamx\').tmpl;'
       }
-      return '<script type="text/javascript">(function(){var ht=Hogan.Template,t=require(\'socketstream\').tmpl;'
+      return '<script type="text/javascript">(function(){var ht=Hogan.Template,t=require(\'socketstreamx\').tmpl;'
     },
 
     // Closing code once all Hogan templates have been written into the <script> tag
