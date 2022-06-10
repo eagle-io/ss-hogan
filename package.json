@@ -5,7 +5,7 @@
     "email": "owen@socketstream.org"
   },
   "description": "Hogan template engine wrapper providing server-side compiled templates for SocketStream apps. Updated to allow for inline or external template wrapping",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "./engine.js",
   "repository": {
